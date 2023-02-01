@@ -1,10 +1,8 @@
-# heat induced SCA against masked Neural Netowrks
-This is a repo for the bake it till you make it paper (https://eprint.iacr.org/2023/076.pdf). It contains the codes to dataset for masked NN power trace and code to run T-test on it. 
+# heat induced SCA against masked Neural Networks
+This repo contains the code and a link to the dataset of traces used to evaluate the robustness of masked neural networks (NNs) against side-channel attacks. The results of this study are presented in the paper ``Bake It Till You Make It: Heat-induced Leakage from Masked Neural Networks'' (https://eprint.iacr.org/2023/076.pdf). In this study, power traces have been collected using a LeCroy wavePro 725Zi oscilloscope in the Riscure setup. [ModuloNET](https://tches.iacr.org/index.php/TCHES/article/view/9306/8872), a masked NN offering first-order security, is implemented on Artix-7 FPGA on Chipwhisperer CW305 target, and the capturing process is controlled by the Chipwhisperer Lite board. 
 
 # Dataset
-The dataset is available on the following link: (https://wpi0-my.sharepoint.com/:f:/g/personal/fganji_wpi_edu/Egk3ePCYYk5AsOm4jsPonlEBT6I8kMPhDyhtm8j51937RA?e=9QbaJt)
-
-The link contains the file with raw traces captured using the Riscure setup for the attacks mentioned in the paper. ( do we need details here about the types of traces? )
+The dataset is available upon request. Please contact fganji (at) wpi (dot) edu
 
 # TVLA test
 
@@ -12,4 +10,12 @@ In the folder TVLA, you will find Jupyter python notebooks which can be used to 
 
 # Results
 
-In the results folder, you will find PNGs that were generateed using the t-test codes provided in the repo
+In the results folder, you will find PNGs that were generated using the t-test codes provided in the repo.
+
+#.bib citation
+@article{mehta2023bake,
+  title={Bake It Till You Make It: Heat-induced Leakage from Masked Neural Networks},
+  author={Mehta, Dev M and Hashemi, Mohammad and Koblah, David S and Forte, Domenic and Ganji, Fatemeh},
+  journal={Cryptology ePrint Archive},
+  year={2023}
+}
