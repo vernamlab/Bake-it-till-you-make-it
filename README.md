@@ -8,9 +8,6 @@ The dataset is available upon request. Please contact fganji (at) wpi (dot) edu
 
 In the folder TVLA, you will find Jupyter python notebooks which can be used to replicate the results using the dataset provided. 
 
-# Results
-
-In the results folder, you will find PNGs that were generated using the t-test codes provided in the repo.
 
 # .bib citation
 @article{mehta2023bake,
