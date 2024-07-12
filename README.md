@@ -1,4 +1,4 @@
-# Heat-induced Side-channel Analysis against Masked Neural Networks
+# Bake it! Heat-induced Power Side-channel Analysis against Masked Neural Networks
 This repo contains the code and a link to the dataset of traces used to evaluate the robustness of masked neural networks (NNs) against side-channel attacks. The results of this study are presented in the paper ``Bake It Till You Make It: Heat-induced Leakage from Masked Neural Networks'' (https://eprint.iacr.org/2023/076.pdf). In this study, power traces have been collected using a LeCroy wavePro 725Zi oscilloscope in the Riscure setup. [ModuloNET](https://tches.iacr.org/index.php/TCHES/article/view/9306/8872), a masked NN offering first-order security, is implemented on Artix-7 FPGA on Chipwhisperer CW305 target, and the capturing process is controlled by the Chipwhisperer Lite board. 
 
 # Dataset
