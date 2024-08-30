@@ -4,9 +4,9 @@ This repo contains the code and a link to the dataset of traces used to evaluate
 # Dataset
 The dataset is available upon request. Please contact fganji (at) wpi (dot) edu
 
-# TVLA test
+# Python Scripts
 
-In the folder TVLA, you will find Jupyter python notebooks which can be used to replicate the results using the dataset provided. 
+In the folder Python, you will find Jupyter python notebooks which can be used to replicate the results using the dataset provided.
 
 
 # .bib citation
