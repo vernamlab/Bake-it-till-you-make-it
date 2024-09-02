@@ -2,7 +2,7 @@
 This repo contains the code and a link to the dataset of traces used to evaluate the robustness of masked neural networks (NNs) against side-channel attacks. The results of this study are presented in the paper ``Bake It Till You Make It: Heat-induced Power Leakage from Masked Neural Networks'' (https://eprint.iacr.org/2023/076.pdf). [ModuloNET](https://tches.iacr.org/index.php/TCHES/article/view/9306/8872), a masked NN offering first-order security, is implemented on Artix-7 FPGA on Chipwhisperer CW305 target, and the capturing process is controlled by the Chipwhisperer Lite and CW Husky boards. A set of power traces captured for this study is gievn in the dataset folder. 
 
 # Dataset
-The dataset is available upon request. Please contact fganji (at) wpi (dot) edu
+The dataset is available [here](https://app.box.com/v/BITUMI-traces).
 
 # Python Scripts
 
